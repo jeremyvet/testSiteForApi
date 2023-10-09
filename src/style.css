@@ -1,0 +1,176 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /* line-height: 1.5;
+  font-weight: 400; */
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* -webkit-text-size-adjust: 100%; */
+}
+
+body {
+  margin: 0;
+ overflow: hidden;
+  /* display: flex;
+  place-items: center; */
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  /* font-size: 3.2em;
+  line-height: 1.1; */
+}
+
+/* #app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+
+/* .header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: gray;
+  padding: 16px 10px;
+  height: 10vh;
+  max-height: 100%; 
+  width: 100%; 
+}
+
+.leftHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.rightHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  position: absolute;
+  right: 0;
+  padding-right: 20px;
+}
+
+.title {
+  display: block;
+  font-size: 35px;
+  font-weight: 400;
+  color: black;
+}
+
+.header__menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+} 
+
+.header__item {
+  font-size: 25px;
+  font-weight: 400;
+  color: black;
+}
+
+.logo {
+  /* height: 6em;
+  padding: 1.5em; */ /*
+  display: block;
+  will-change: filter;
+  transition: filter 300ms;
+  border-radius: 10px;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #ff64ea);
+}
+.logo.vanilla:hover {
+  filter: drop-shadow(0 0 2em #3178c6aa);
+} */
+
+/* super jank copilot css because i have wasted an hour on this header :) */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: darkgray;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 1px solid black;
+}
+
+.leftHeader {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 10px;
+}
+
+.funnyBunny {
+  height: 51px;
+  width: 45px;
+  border: 1px solid black;
+  border-radius: 10000px;
+}
+
+.title {
+  font-size: 15px;
+  color: black;
+}
+
+.rightHeader {
+  display: flex;
+  align-items: center;
+}
+
+.header__menu {
+  display: flex;
+}
+
+.header__item {
+  margin-right: 10px;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 3px;
+  border: 1px solid black;
+  border-radius: 6px;
+  font-size: 17px;
+}
+
+.header__item:hover {
+  color: #666;
+}
+
+/* button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+} */
+
+
