@@ -1,32 +1,27 @@
-:root {
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   /* line-height: 1.5;
   font-weight: 400; */
 
-  color-scheme: light dark;
+  /* color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #ffffff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  /* -webkit-text-size-adjust: 100%; */
-}
+  -moz-osx-font-smoothing: grayscale; */
+  /* -webkit-text-size-adjust: 100%; 
+} */
 
 body {
   margin: 0;
- overflow: hidden;
-  /* display: flex;
-  place-items: center; */
-  min-width: 320px;
-  min-height: 100vh;
 }
 
-h1 {
-  /* font-size: 3.2em;
-  line-height: 1.1; */
+html, body {
+  height: 100%;
 }
+
 
 /* #app {
   max-width: 1280px;
@@ -154,6 +149,54 @@ h1 {
   color: #666;
 }
 
+.row {
+  display:flex;
+  height: 100%;
+  width:100%;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  width: 15%;
+  background-color:#666;
+}
+
+.inputField {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+
+  border-radius: 10px;
+}
+
+.average {
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+
+  border-radius: 10px;
+}
+
+.result {
+  height: 100px;
+  width: 300px;
+  margin: 10px;
+
+  border-radius: 10px;
+
+  background-color: #333;
+
+  color:white;
+  text-align: center;
+  line-height: 100px; /* Set the line-height to the same as the height of the element */
+  overflow: auto;
+}
 /* button {
   border-radius: 8px;
   border: 1px solid transparent;
